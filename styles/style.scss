@@ -1,0 +1,39 @@
+// Space Grotesk font
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+// library
+@import './lib/reset';
+@import './lib/variables';
+@import './lib/media-queries';
+
+
+// section
+@import './section/navbar';
+
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+// responsive container
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 230px;
+    @include desktop2X{
+        padding: 0 180px;
+    }
+    @include desktop{
+        padding: 0 130px;
+    }
+    @include laptop{
+        padding: 0 100px;
+    }
+    @include tablet{
+        padding: 0 50px;
+    }
+    @include mobile{
+        padding: 0 20px;
+    }
+
+}

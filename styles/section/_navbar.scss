@@ -1,0 +1,83 @@
+.navbar_top {
+    width: 100%;
+    height: 60px;
+    background-color: $navbar_top_color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_contact{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        &_item{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: $nabar_text;
+            font-size: 16px;
+        }
+        &_icon{
+            background: linear-gradient(91deg, $gradient_blue 0%, $gradient_blue_light 100%);
+            color: transparent;
+            -webkit-background-clip: text;
+        }
+    }
+    &_social{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        &_item{
+            color: $nabar_text;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            &:hover{
+                color: $gradient_blue;
+            }
+        }
+    }
+}
+.navbar_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    height: 90px;
+    border: 2px solid $navbar_top_color;
+    color: $nabar_text;
+    &_logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 26px;
+    }
+    &_menu{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        &_item{
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            &:hover{
+                color: $gradient_blue;
+            }
+        }
+    }
+    &_btn{
+        background: linear-gradient(91deg, $gradient_blue 0%, $gradient_blue_light 100%);
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        transition: all 0.1s ease-in-out;
+        &:hover{
+            border: 1px solid $gradient_blue;
+            background: white;
+            color: $gradient_blue;
+        }
+    }
+}

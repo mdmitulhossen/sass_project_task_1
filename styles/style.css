@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar_top {
+  width: 100%;
+  height: 60px;
+  background-color: #ECF0FB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_top_contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.navbar_top_contact_item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #05092B;
+  font-size: 16px;
+}
+.navbar_top_contact_icon {
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.navbar_top_social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.navbar_top_social_item {
+  color: #05092B;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navbar_top_social_item:hover {
+  color: #351EE0;
+}
+
+.navbar_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  height: 90px;
+  border: 2px solid #ECF0FB;
+  color: #05092B;
+}
+.navbar_bottom_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 26px;
+}
+.navbar_bottom_menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar_bottom_menu_item {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navbar_bottom_menu_item:hover {
+  color: #351EE0;
+}
+.navbar_bottom_btn {
+  background: linear-gradient(91deg, #351EE0 0%, #3F74EF 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.1s ease-in-out;
+}
+.navbar_bottom_btn:hover {
+  border: 1px solid #351EE0;
+  background: white;
+  color: #351EE0;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 230px;
+}
+@media screen and (min-width: 1521px) {
+  .container {
+    padding: 0 180px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1520px) {
+  .container {
+    padding: 0 130px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 0 100px;
+  }
+}
+@media screen and (min-width: 461px) and (max-width: 768px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .container {
+    padding: 0 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
