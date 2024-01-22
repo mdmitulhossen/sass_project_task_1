@@ -195,15 +195,17 @@
     box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     display: flex;
-    gap: 20px;
-    justify-content: space-between;
+    // gap: 30px;
+    // justify-content: space-evenly;
     align-items: center;
     padding: 40px;
     position: relative;
     height: 346px;
-     top: 100px;
+    top: 100px;
     z-index: 10;
-
+    &_imgContainer{
+        flex: 1;
+    }
     &_img {
         position: absolute;
         bottom: 0;
@@ -211,6 +213,7 @@
     }
 
     &_content {
+        flex: 1;
         &_text {
             font-size: 45px;
             font-weight: 800;
