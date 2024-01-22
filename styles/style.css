@@ -56,7 +56,6 @@ li {
   align-items: center;
   padding: 20px 0;
   height: 90px;
-  border: 2px solid #ECF0FB;
   color: #05092B;
 }
 .navbar_bottom_logo {
@@ -93,6 +92,54 @@ li {
   border: 1px solid #351EE0;
   background: white;
   color: #351EE0;
+}
+
+.hero_breadcrumb {
+  height: 350px;
+  background: url(../../assests/heroBG.jpg) no-repeat center center;
+  position: relative;
+}
+.hero_breadcrumb_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #05092B;
+  z-index: 100;
+  color: #FFFFFF;
+}
+.hero_breadcrumb_content_title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hero_breadcrumb_content_breadcrumb {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hero_breadcrumb::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 350px;
+  width: 100%;
+  background-color: #05092B;
+  opacity: 0.4;
+}
+
+.breadCrumb_link {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 body {

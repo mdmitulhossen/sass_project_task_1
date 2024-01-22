@@ -1,0 +1,47 @@
+.hero_breadcrumb{
+    height: 350px;
+    background: url(../../assests/heroBG.jpg) no-repeat center center;
+    position: relative;
+    &_content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: $nabar_text;
+        z-index: 100;
+        color: $white;
+        &_title{
+            font-size: 50px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        &_breadcrumb{
+            font-size: 20px;
+            color: $white;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+    
+    }
+}
+.hero_breadcrumb::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 350px;
+    width: 100%;
+    background-color: $nabar_text;
+    opacity: 0.4;
+}
+.breadCrumb_link{
+    text-decoration: none;
+    color: $white;
+}
