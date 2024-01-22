@@ -1,0 +1,224 @@
+.footer {
+    background-color: $nabar_text;
+    margin-top: 30px;
+
+    &_newsletter {
+        background-color: $white;
+        box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        position: relative;
+        height: 346px;
+        top: -250px;
+        z-index: 10;
+
+        &_img {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        &_content {
+            &_text {
+                font-size: 45px;
+                font-weight: 800;
+                color: $nabar_text;
+                text-transform: capitalize;
+            }
+
+            #connected {
+                color: $gradient_blue;
+            }
+
+            &_btn {
+                border: 1px solid $gradient_blue;
+                color: $nabar_text;
+                font-weight: 700;
+                padding: 10px 30px;
+                background: #FFF;
+                border-radius: 5px;
+                margin-top: 20px;
+                cursor: pointer;
+                font-size: 18px;
+            }
+        }
+    }
+
+    &_menu {
+        margin-top: -180px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #ffffff20;
+
+        &_content {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+            &_logo {
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+                gap: 15px;
+
+                &_img {
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    color: $white;
+                    font-size: 25px;
+                }
+
+                &_text {
+                    color: $white;
+                    opacity: 0.8;
+                    font-weight: 400;
+                }
+
+                &_follow {
+                    color: $white;
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+
+                &_item {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+                    font-size: 18px;
+                    color: $white;
+                    font-weight: 600;
+
+                    &_icon {
+                        width: 35px;
+                        height: 35px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 5px;
+                        border: 1px solid #ffffff40;
+                        border-radius: 5px;
+                        color: $white;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            &_contact {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                &_title {
+                    color: $white;
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+
+                &_item {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    font-size: 16px;
+                    color: $white;
+                    font-weight: 400;
+                    opacity: 0.8;
+                    margin-bottom: 15px;
+                }
+
+                &_icon {
+                    color: $gradient_blue;
+                }
+            }
+
+            &_links {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                &_title {
+                    color: $white;
+                    font-size: 22px;
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+
+                &_item {
+                    font-size: 16px;
+                    color: $white;
+                    font-weight: 400;
+                    opacity: 0.8;
+                }
+
+                &_icon {
+                    color: $gradient_blue;
+                }
+            }
+
+            &_news {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                &_title {
+                    color: $white;
+                    font-size: 22px;
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+
+                &_item {
+                    display: flex;
+                    gap: 5px;
+                    flex-direction: column;
+
+                    &_date {
+                        color: $white;
+                        font-size: 16px;
+                        font-weight: 400;
+                        opacity: 0.8;
+                    }
+
+                    &_icon {
+                        color: $gradient_blue;
+                    }
+
+                    &_text {
+                        color: $white;
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    &_copyright {
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_text {
+            color: $white;
+            font-size: 16px;
+            font-weight: 300;
+            opacity: 0.7;
+        }
+        &_menu {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            font-size: 16px;
+            color: $white;
+            font-weight: 300;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    }
+}

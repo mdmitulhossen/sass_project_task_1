@@ -143,7 +143,7 @@ li {
 }
 
 .services {
-  margin: 100px 0;
+  margin: 100px 0 450px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -210,6 +210,201 @@ li {
   font-size: 18px;
   line-height: 30px;
   color: #737373;
+}
+
+.footer {
+  background-color: #05092B;
+  margin-top: 30px;
+}
+.footer_newsletter {
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  position: relative;
+  height: 346px;
+  top: -250px;
+  z-index: 10;
+}
+.footer_newsletter_img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer_newsletter_content_text {
+  font-size: 45px;
+  font-weight: 800;
+  color: #05092B;
+  text-transform: capitalize;
+}
+.footer_newsletter_content #connected {
+  color: #351EE0;
+}
+.footer_newsletter_content_btn {
+  border: 1px solid #351EE0;
+  color: #05092B;
+  font-weight: 700;
+  padding: 10px 30px;
+  background: #FFF;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.footer_menu {
+  margin-top: -180px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1254901961);
+}
+.footer_menu_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer_menu_content_logo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer_menu_content_logo_img {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 25px;
+}
+.footer_menu_content_logo_text {
+  color: #FFFFFF;
+  opacity: 0.8;
+  font-weight: 400;
+}
+.footer_menu_content_logo_follow {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+}
+.footer_menu_content_logo_item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.footer_menu_content_logo_item_icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2509803922);
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.footer_menu_content_contact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer_menu_content_contact_title {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 600;
+}
+.footer_menu_content_contact_item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+.footer_menu_content_contact_icon {
+  color: #351EE0;
+}
+.footer_menu_content_links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_menu_content_links_title {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.footer_menu_content_links_item {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.footer_menu_content_links_icon {
+  color: #351EE0;
+}
+.footer_menu_content_news {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_menu_content_news_title {
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.footer_menu_content_news_item {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.footer_menu_content_news_item_date {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.footer_menu_content_news_item_icon {
+  color: #351EE0;
+}
+.footer_menu_content_news_item_text {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer_copyright {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_copyright_text {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+.footer_copyright_menu {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 300;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 body {
