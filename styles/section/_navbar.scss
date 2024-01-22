@@ -54,6 +54,12 @@
         display: flex;
         align-items: center;
         gap: 30px;
+        @include mobile{
+            display: none;
+        }
+        @include tablet{
+            display: none;
+        }
         &_item{
             font-size: 16px;
             font-weight: 500;
